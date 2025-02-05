@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+</head>
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+ <style>
+    body {
+     margin: 0;
+  padding: 0rem;
+   display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+#navbar {
+ // display: flex;
+  justify-content: space-between;
+  align-items: center;
+   //align-items: right;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+    //float: right;
+}
+#logo {
+  display: inside;
+  width: 60px;
+  height: auto;
+}
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  //align-items: center;
+  //text-align: right;
+  float:right;
+}
+      form {
+      margin: auto; /* Center form horizontally */
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+    }
+      .header {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .about-section {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .about-section h2 {
+            color: #2ecc71;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .animated-bullet {
+            list-style: none;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .animated-bullet::before {
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            color: #2ecc71;
+            font-size: 1.2em;
+            top: 4px;
+        }
+        #cover-image{
+            height: 15rem;
+            width:100%;
+            object-fit: cover;
+        }
+        .card {
+            width: 14rem;
+            margin: 1rem;
+        }
+        .card-img-top {
+            height: 14rem;
+            object-fit: cover;
+        }
+</style>
+ <body>
+ <div id="navbar">
+    <img id="logo" src="static/bg.jpg" alt="Logo">
+
+                <a href="/contactus" style="margin: 10px 5px 15px 20px;">Contact Us</a>
+                <a href="/about" style="margin: 10px 5px 15px 20px;">About</a>
+                <a href="/home" style="margin: 10px 5px 15px 20px;">Home</a>
+  </div>
+
+ <div class="container">
+        <div class="about-section">
+            <h2>About Us</h2>
+            <img id="cover-image" src="static/lcwu.jpeg" alt="About Us Banner">
+            <br>
+            <br>
+
+        <h2>Introduction:</h2>
+        <p>Welcome to <strong>FORMAT EASE</strong>, an innovative document formatting tool designed to simplify and enhance your document creation process. Our application provides a user-friendly interface and a wide range of formatting options to help you create professional-looking documents with ease.</p>
+
+        <h2>Our Mission:</h2>
+        <p>Our mission is to streamline the document creation process, making it more efficient and accessible for everyone. Whether you're a student, a professional, or anyone in need of document formatting, <strong>Format Ease</strong> is here to assist you.</p>
+
+        <h2>Features:</h2>
+        <ul>
+            <li><strong>Ease of Use:</strong> Intuitive design that allows users to quickly format their documents without a steep learning curve.</li>
+            <li><strong>Versatility:</strong> Wide range of formatting options, including font styles, spacing, headers, footers, and more.</li>
+            <li><strong>Customization:</strong> Personalize your documents with custom templates, themes, and advanced formatting tools.</li>
+            <li><strong>Collaboration:</strong> Share your documents with teammates and collaborate in real-time.</li>
+            <li><strong>Cross-Platform Compatibility:</strong> Access your documents from any device, anywhere.</li>
+        </ul>
+
+        <h2>Our Story:</h2>
+        <p><strong>Format Ease</strong> was developed by <strong></strong>, a group of passionate developers and designers committed to enhancing productivity tools. Our journey began in our final year of university <strong>2024</strong>, driven by the need for a more efficient and user-friendly document formatting tool.</p>
+
+        <h2>Future Goals:</h2>
+        <p>We are constantly working to improve <strong>Format Ease</strong>, with regular updates and new features based on user feedback. Our goal is to be the go-to solution for all your document formatting needs.</p>
+
+
+
+
+            <h2> Our Team </h2>
+
+            <div class="row">
+                <div class="card" >
+                    <img class="card-img-top" src="static/ridz.jpeg"alt="Rida">
+                    <div class="card-body">
+                        <h5 class="card-title">Rida Zahra</h5>
+                        <p class="card-text">Frontend Developer & Reseacher</p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img class="card-img-top" src="static/adina.jpeg" alt="Rida">
+                    <div class="card-body">
+                        <h5 class="card-title">Aadeena Kamran</h5>
+                        <p class="card-text">Backend Developer & Reseacher</p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img class="card-img-top" src="static/sobia.jpeg"alt="Rida">
+                    <div class="card-body">
+                        <h5 class="card-title">Sobia Maqbool</h5>
+                        <p class="card-text">Backend Developer & Reseacher</p>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img class="card-img-top" src="static/mazam.jpeg" alt="Rida">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahnoor Azam</h5>
+                        <p class="card-text">Frontend Developer & Reseacher</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
