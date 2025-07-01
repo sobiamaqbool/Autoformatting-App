@@ -44,43 +44,12 @@ npm install
 Start the development server:
 npm start
 
-The app will open in your browser at http://localhost:3000/.
- Usage
-Paste or type your code into the source panel.
-The formatted version appears automatically in the output panel.
-Use Copy to copy formatted code.
-Use Download to save it as a .txt file.
-🔧 Configuration
-Customize formatting rules in:
-src/config/prettierConfig.js
-Edit options like:
-module.exports = {
-  tabWidth: 2,
-  semi: true,
-  singleQuote: true,
-};
-Save and refresh — your custom rules will be applied automatically.
- Testing
-Basic tests are available. To run them:
-npm test
+# The app will open in your browser at http://localhost:3000/.
 
- Build for Production
-To generate a production-ready build:
-npm run build
-
-This creates a /build folder with optimized files ready for deployment.
- Contributing
-Contributions are welcome! 
-Steps:
-Fork the repo
-Create a branch (git checkout -b feature-name)
-Make changes and commit (git commit -m "Add feature")
-Push (git push origin feature-name)
-Open a Pull Request
- License
+## License
 This project is licensed under the MIT License.
 
- Author
+## Author
 Sobia Maqbool
 MPhil in Artificial Intelligence
 GitHub: sobiamaqbool
